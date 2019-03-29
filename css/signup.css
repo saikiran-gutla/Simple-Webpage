@@ -1,0 +1,21 @@
+label{
+	font-size: 18px;
+}
+h2{
+	color: red;
+}
+input[type=text],input[type=email],input[type=number],input[type=date]{
+  border: none;
+  border-bottom: 1.5px solid silver;
+  width: 75%;
+
+}
+input[type=submit],input[type=reset]
+{
+width: 60%;
+}
+#mobile {
+	border-radius: 10px;
+	min-height: 30px;
+	min-width: 70%;
+}
