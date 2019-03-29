@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Mobile Billing</title>	
+	<link rel="stylesheet" type="text/css" href="./css/signup.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+</head>
+<body>
+	<center>
+		   <h1 id="heading"><u>Welcome to Tech Mobile Shopping</u></h1>
+            <table border="0">
+                <tr>
+                    <td>
+                        <img src= ".\Images\logo.png" width="250px" height="150px">
+                    </td>
+                    <td>
+                         <marquee direction="up" scrollamount="3">
+                            <h3 id="msg">Hurry Up!!!!!</h3>
+                            <h4 id="msg">Today's Offer....
+                                <br>Win exciting prices on purchase of every mobile..</h4>
+                            
+                        </marquee> 
+                    </td>
+                </tr>
+            </table>  
+
+<form>
+	<h2><u>Mobile Billing</u></h2><br>
+	<div class="container">
+		<div class="row"><label style="float: left;"><b>Personal Details</b> </label></div><br>
+		<div class="row">
+			<div class="col-md-4"><input type="text" name="fname" placeholder="Enter First Name" class="form-control"><br></div>
+			<div class="col-md-4"><input type="text" name="lname" placeholder="Enter Last Name" class="form-control"><br></div>
+			<div class="col-md-4"><input type="email" name="email" placeholder="Enter email Id" class="form-control"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-4"><input type="number" name="mobile" placeholder="Enter Mobile Number" max="10" class="form-control"><br></div>
+			<div class="col-md-4"><input type="date" name="dob" id="datepick" placeholder ="Select Date of Birth" class="form-control"></div>
+			<div class="col-md-2"><label class="checkbox-inline"><input type="radio" name="gender" value="Male">Male</label></div>
+			<div class="col-md-2"><label class="checkbox-inline"><input type="radio" name="gender" value="Female">Female</label></div>	
+		</div>
+		<hr noshade>
+												<!-- PHONE DETAILS -->
+
+		<div class="row">
+			<label><b>Phone Details</b> </label>
+		</div><br>
+		<div class="row">
+			<div class="col-md-4">
+				<select id="mobile">
+					<option value="Select Mobile Brand">---Select Mobile Brand---</option>
+					<option value="Honor">Honor</option>
+					<option value="Honor">Samsung</option>
+					<option value="Honor">MicroMax</option>
+					<option value="Honor">Redmi</option>
+					<option value="Honor">Oppo</option>
+					<option value="Honor">Vivo</option>
+				</select>
+			</div>
+			<div class="col-md-4">
+				<input type="text" name="modelnumber" placeholder="Enter Model Number" class="form-control"></div>
+			<div class="col-md-4">
+				<input type="text" name="imei" placeholder="Enter IMEI number" class="form-control"></div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-4">
+			<input type="checkbox" name="glass" value="glass"> Glass Guard 
+			<input type="checkbox" name="backcover" value="backcover" style="margin-left: 25px;"> Back cover 
+			</div>
+		</div><br>
+		<hr noshade><br>
+												<!--   BILLING INFORMATION  -->
+
+		<div class="row">
+			<div class="row"><label style="float: left;"><b>Billing Information</b> </label></div><br>
+		</div><br>
+		<div class="row">
+			<div class="col-md-4">
+				<input type="number" name="amount" placeholder="Enter amount" class="form-control">
+			</div>
+			<div class="col-md-4">
+				<input type="number" name="Discount" placeholder="Enter Discount Amount" class="form-control">
+			</div>
+			<div class="col-md-4">
+				<input type="number" name="gross" placeholder="Total Amount" class="form-control">
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-4">
+				<input type="submit" name="save" class="btn btn-primary">
+			</div>
+			<div class="col-md-4">
+				<input type="reset" name="Clear" class="btn btn-danger">
+			</div>
+		</div><br><br><br><br>
+	</div>
+</form>
+</center>
+</body>
+</html>
